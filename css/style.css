@@ -1,3 +1,9 @@
+.line {
+    background: rgb(255, 227, 0);
+    height: 5px;
+    margin: 30px auto;
+}
+
 .navbar {
     background: url(../img/back.png);
 }
@@ -140,4 +146,20 @@ header .callme .link-calc a:hover {
     width: 100%;
     padding: 6px;
     border: 1px rgb(194, 194, 194) solid;
+}
+
+#desktop_1 .carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#desktop_1 .rezult table {
+    width: 100%;
+}
+
+#desktop_1 .rezult table td:nth-child(2n+1) {
+    font-weight: 700;
 }
