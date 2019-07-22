@@ -4,6 +4,20 @@
     margin: 30px auto;
 }
 
+a.btn {
+    padding: 15px;
+    background: #ffe300;
+    margin-left: 15px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+a.btn:hover {
+    transition: .3s;
+    color: #ffe300;
+    background: black;
+}
+
 .navbar {
     background: url(../img/back.png);
 }
@@ -100,20 +114,6 @@ header .callme input {
     width: 100%;
 }
 
-header .callme a.btn {
-    padding: 15px;
-    background: #ffe300;
-    margin-left: 15px;
-    border-radius: 15px;
-    font-size: 24px;
-}
-
-header .callme a.btn:hover {
-    transition: .3s;
-    color: #ffe300;
-    background: black;
-}
-
 header .callme .link-calc {
     padding: 25px 0;
 }
@@ -161,5 +161,38 @@ header .callme .link-calc a:hover {
 }
 
 #desktop_1 .rezult table td:nth-child(2n+1) {
+    font-weight: 700;
+}
+
+#desktop_1 .advantage p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#desktop_2 {
+    background-color: #393939;
+}
+
+#desktop_2 h3 {
+    color: white;
+}
+
+#desktop_2 h3 span {
+    display: block; 
+}
+
+#desktop_2 h3 span:nth-of-type(1) {
+    padding: 5px 0;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+#desktop_2 h3 span:nth-of-type(2) {
+    font-size: 80%;
+    padding: 35px 0;
+}
+
+#desktop_2 h3 span:nth-of-type(3) {
+    font-size: 90%;
     font-weight: 700;
 }
