@@ -1,0 +1,123 @@
+.navbar {
+    background: url(../img/back.png);
+}
+
+.navbar .nav .nav-item a {
+    color: white;
+}
+
+.navbar .nav .nav-item.call {
+    margin-left: 300px;
+}
+
+.navbar .nav .nav-item.call:hover{
+    background: none;
+}
+
+.navbar .nav .nav-item.call a {
+    color: rgb(255, 227, 0);
+}
+
+.navbar .nav .nav-item.call:hover a {
+    color: white;
+}
+
+.navbar .nav .nav-item:hover {
+    transition: .5s;
+    transition-delay: .05s;
+    background-color: rgb(255, 227, 0);
+}
+
+.navbar .nav .nav-item:hover a {
+    color:black;
+}
+
+header {
+    background: url(../img/header.jpg) no-repeat;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+header h4 {
+    color: white;
+}
+
+header .right-column {
+    color: white;
+}
+
+header .right-column a {
+    color: white;
+    text-decoration: none;
+}
+
+header .right-column a:hover {
+    transition: .3s;
+    color: rgb(255, 227, 0);
+}
+
+header .title {
+    color: white;
+    padding-top: 10rem;
+    width: 80%;
+}
+
+header .title .wrapper {
+    background: #00000082;
+}
+
+header .title .wrapper h1 {
+    font-size: 55px;
+    border-bottom: 5px white solid;
+    font-weight: 500;
+}
+
+header .title .wrapper h1 span {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+header .title .wrapper .right-text {
+    font-size: 18px;
+}
+
+header .title .wrapper .right-text span {
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+header .callme input {
+    padding: 19px;
+    height: 100%;
+    width: 100%;
+}
+
+header .callme a.btn {
+    padding: 15px;
+    background: #ffe300;
+    margin-left: 15px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+header .callme a.btn:hover {
+    transition: .3s;
+    color: #ffe300;
+    background: black;
+}
+
+header .callme .calc a {
+    color: #ffe300;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+}
+
+header .callme .calc a:hover {
+    transition: .8s;
+    color: black;
+    background: #ffe300;
+    border-radius: 15px;
+}
