@@ -34,7 +34,7 @@
 
 header {
     background: url(../img/header.jpg) no-repeat;
-    height: 700px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -108,16 +108,36 @@ header .callme a.btn:hover {
     background: black;
 }
 
-header .callme .calc a {
+header .callme .link-calc {
+    padding: 25px 0;
+}
+
+header .callme .link-calc a {
     color: #ffe300;
     text-decoration: none;
     font-size: 24px;
     padding: 10px;
 }
 
-header .callme .calc a:hover {
+header .callme .link-calc a:hover {
     transition: .8s;
     color: black;
     background: #ffe300;
     border-radius: 15px;
+}
+
+#desktop_1 .calc {
+    background: #ffe300;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+
+#desktop_1 .calc .fields {
+    padding: 30px;
+}
+
+#desktop_1 .calc .fields .field input, #desktop_1 .calc .fields .field select {
+    width: 100%;
+    padding: 6px;
+    border: 1px rgb(194, 194, 194) solid;
 }
