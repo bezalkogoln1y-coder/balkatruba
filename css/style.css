@@ -205,6 +205,18 @@ header .callme .link-calc a:hover {
     font-weight: 700;
 }
 
+#desktop_2 .right-column h4, #desktop_2 p {
+    text-transform: uppercase;
+    color: #ffe300;
+}
+
+#desktop_2 .right-column input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0000004f;
+}
+
 #desktop_3 {
     background: url(../img/sklad.jpg) no-repeat;
     background-size: cover;
@@ -229,18 +241,6 @@ header .callme .link-calc a:hover {
 
 #desktop_3 .left-column p span {
     font-weight: 700;
-}
-
-#desktop_3 .right-column h4, #desktop_3 p {
-    text-transform: uppercase;
-    color: #ffe300;
-}
-
-#desktop_3 .right-column input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 2px solid #0000004f;
 }
 
 #desktop_5, footer {
