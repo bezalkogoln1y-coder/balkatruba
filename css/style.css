@@ -18,6 +18,11 @@ a.btn:hover {
     background: black;
 }
 
+a.btn.no-effect:hover {
+    background: inherit;
+    color: inherit;
+}
+
 .navbar {
     background: url(../img/back.png);
 }
