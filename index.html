@@ -16,11 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+    <nav class="navbar navbar-expand-lg d-none d-md-block">
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="nav">
                 <li class="nav-item">
@@ -38,47 +34,47 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#map">Контакты</a>
                 </li>
-                <li class="nav-item call">
-                     <a class="nav-link" href="#">
+                <li class="nav-item call d-none d-md-block">
+                     <a class="nav-link" data-toggle="modal" href="#exampleModal">
                          <i class="fa fa-headphones" aria-hidden="true"></i>
-                         <span>Заказать звонок</span>
+                         <span>Позвонить</span>
                      </a>
                 </li>
             </ul>
         </div>
     </nav>
     <header>
-        <div class="container pt-3">
+        <div class="container pt-5">
             <div class="row">
-                <div class="col-md-5 align-self-center">
+                <div class="col-md-5 col-12 text-md-left text-center align-self-center">
                     <h4>ВТОРАЯ ЖИЗНЬ Б/У ТРУБЕ!</h4>
                 </div>
-                <div class="col-md-7 right-column">
+                <div class="col-md-7 col-12 text-md-left text-center right-column">
                     <div class="row">
-                        <div class="col-md-4">ОТДЕЛ ПРОДАЖ:</div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">ОТДЕЛ ПРОДАЖ:</div>
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <span>84950449777@MAIL.RU</span></a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <span>+7 (495) 044-97-77</span></a>
                         </div>
-                        <div class="w-100 pt-2 d-none d-md-block"></div>
-                        <div class="col-md-4">ОТДЕЛ СНАБЖЕНИЯ:</div>
-                        <div class="col-md-4">
+                        <div class="w-100 py-3 py-md-0 pt-2 d-md-block"></div>
+                        <div class="col-md-4 col-12">ОТДЕЛ СНАБЖЕНИЯ:</div>
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <span>84950449777@MAIL.RU</span></a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <span>МНОГОКАНАЛЬНЫЙ</span></a>
                         </div>
-                        <div class="w-100 pt-2 d-none d-md-block"></div>
+                        <div class="w-100 py-3 py-md-0 pt-2 d-md-block"></div>
                         <div class="col-md-12 text-center">
                             <a href="#">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -87,15 +83,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row title">
+            <div class="row title no-gutters">
                 <div class="col-md-12 wrapper revealator-slideup revealator-once revealator-duration10">
-                    <div class="row">
-                        <div class="col-md-8 left-text">
+                    <div class="row py-4 py-md-0">
+                        <div class="col-md-8 col-12 left-text text-center text-md-left pb-2 pb-md-0">
                             <h1>ВОССТАНОВЛЕННЫЕ <br>
                                 <span>ТРУБЫ Б/У</span>
                             </h1>
                         </div>
-                        <div class="col-md-4 right-text">
+                        <div class="col-md-4 col-12 right-text text-center text-md-left">
                         ПОВТОРНОЕ ПРИМЕНЕНИЕ <br>
                         ВОССТАНОВЛЕННЫХ ТРУБ, В <br> СТРОИТЕЛЬСТВЕ И ПРОИЗВОДСТВЕ <br> МЕТАЛЛОКОНСТРУКЦИЙ <br><br>
                         <span>ВАША ВЫГОДА ДО 50 %!</span>
@@ -103,11 +99,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-5 pt-5 callme">
-                <div class="col-md-7">
+            <div class="row justify-content-center mt-2 mt-md-5 pt-md-5 callme">
+                <div class="col-md-7 col-12">
                     <div class="row justify-content-center no-gutters">
 <!--                      <div class="col-md-5"><input type="phone" placeholder="Телефон *"></div>-->
-                      <div class="col-md-12 revealator-slideup revealator-once revealator-duration10"><a class="btn d-none d-md-block" data-toggle="modal" href="#exampleModal">
+                      <div class="col-12 revealator-slideup revealator-once revealator-duration10"><a class="btn d-none d-md-block" data-toggle="modal" href="#exampleModal">
                       <i class="fa fa-phone" aria-hidden="true"></i>
                       <span>Позвонить</span>
                       </a>
@@ -117,7 +113,7 @@
                       </a>
                       </div>
                       <div class="w-100 d-none d-md-block"></div>
-                      <div class="col-md-12 link-calc text-center">
+                      <div class="col-12 link-calc text-center">
                           <a href="#desktop_1">
                           <i class="fa fa-arrow-down" aria-hidden="true"></i>
                           <span>Рассчитайте стоимость и вес труб</span></a>
@@ -130,11 +126,11 @@
     <section id="desktop_1" class="pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                 <h2 class="py-5 text-center">РАССЧИТАЙТЕ СТОИМОСТЬ И ВЕС</h2>
                 </div>
                 <div class="w-100 d-none d-md-block"></div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <h4 class="py-3 text-center">КАЛЬКУЛЯТОР ТРУБ</h4>
                     <form class="calc" action="">
                         <div class="fields">
@@ -221,7 +217,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-12">
                    <h4 class="py-3 text-center">НОРМЫ ПОГРУЗКИ ТРУБ</h4>
                     <div class="row">
                         <div class="col-12 carousel slide" id="carouselExampleIndicators">
@@ -279,7 +275,7 @@
                     </div>
                 </div>
                 <div class="w-100 d-none d-md-block"></div>
-                <div id="about" class="col-md-12 about-company text-center">
+                <div id="about" class="col-12 about-company text-center">
                 <h2 class="pt-5 pb-3 text-center">О КОМПАНИИ</h2>
                 <div class="text">
                 <h4>Восстановленные трубы б/у. Не стоит переплачивать за новые трубы там где в них нет необходимости!</h4>
@@ -289,14 +285,14 @@
                 </div>
                 </div>
                 <div class="w-100 d-none d-md-block"></div>
-                <div id="advantage"  class="col-md-12 advantage">
+                <div id="advantage"  class="col-12 advantage">
                     <h2 class="py-5 text-center">ПРЕИМУЩЕСТВА</h2>
                     <div class="row">
-                        <div class="col-6 eco"><p>ЭКОНОМИЯ ДО 50% БЮДЖЕТА</p></div>
-                        <div class="col-6 delivery"><p>ДОСТАВКА ДЕНЬ В ДЕНЬ</p></div>
+                        <div class="col-12 col-md-6 eco"><p>ЭКОНОМИЯ ДО <br> 50% БЮДЖЕТА</p></div>
+                        <div class="col-12 col-md-6 delivery"><p>ДОСТАВКА  <br> ДЕНЬ В ДЕНЬ</p></div>
                         <div class="w-100 d-none d-md-block"></div>
-                        <div class="col-6 high"><p>СЕРТИФИКАТЫ НА ВСЮ ПРОДУКЦИЮ</p></div>
-                        <div class="col-6 worker"><p>СОБСТВЕННАЯ ДЕМОНТАЖНАЯ БРИГАДА</p></div>
+                        <div class="col-12 col-md-6 high"><p>СЕРТИФИКАТЫ НА <br>ВСЮ ПРОДУКЦИЮ</p></div>
+                        <div class="col-12 col-md-6 worker"><p>СОБСТВЕННАЯ <br>ДЕМОНТАЖНАЯ БРИГАДА</p></div>
                     </div>
                 </div>
             </div>
@@ -305,17 +301,17 @@
     <section id="desktop_2" class="py-5">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-md-5 align-self-center">
-                    <h3>
+                <div class="col-md-5 col-12 align-self-center">
+                    <h3 class="text-center text-md-left">
                        ПРИГЛАШАЕМ ПОСТАВЩИКОВ <br>
                         <span>ТРУБ С ДЕМОТАЖА</span>
                         <span>ОТПРАВЬТЕ ХАРАКТЕРИСТИКИ ТРУБЫ</span>
                         <span>159 ММ - 1420 ММ</span>
                     </h3>
                 </div>
-                <div class="col-md-4 right-column text-center">
-                      <h4>Оставьте заявку</h4>
-                    <p><i class="fa fa-arrow-circle-o-down fa-2x" aria-hidden="true"></i></p>
+                <div class="col-md-4 col-12 right-column text-center">
+                      <h4 class="d-none d-md-block">Оставьте заявку</h4>
+                    <p class="d-none d-md-block"><i class="fa fa-arrow-circle-o-down fa-2x" aria-hidden="true"></i></p>
                    <form action="">
                        <input type="text" placeholder="Имя">
                        <input type="tel" placeholder="Телефон">
@@ -331,13 +327,13 @@
     <section id="desktop_3" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 left-column">
+                <div class="col-md-8 col-12 left-column">
                     <h3>
                        ЗАТРУДНЯЕТЕСЬ В ВЫБОРЕ ДИАМЕТРА ТРУБ, И ИХ ХАРЕКТЕРИСТИК  <span>ДЛЯ ВАШЕГО ОБЬЕКТА?</span>
                     </h3>
                     <p><span>ПОЗВОНИТЕ НАМ</span> , МЫ СДЕЛАЕМ БЕСПЛАТНЫЙ АНАЛИЗ И ОЦЕНКУ!</p>
                 </div>
-                <div class="col-md-4 text-center align-self-center">
+                <div class="col-md-4 col-12 text-center align-self-center">
                     <a class="btn d-none d-md-block" data-toggle="modal" href="#exampleModal">
                       <i class="fa fa-phone" aria-hidden="true"></i>
                       <span>Позвонить</span>
@@ -353,10 +349,10 @@
     <section id="desktop_4" class="py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h2 class="pb-5 text-center">ВИДЕО ДЕМОНТАЖА</h2>
                     <div class="row justify-content-center">
-                        <div class="col-md-8">
+                        <div class="col-md-8 col-12">
                             <iframe width="100%" height="400px" src="https://www.youtube.com/embed/6iSsliv1eRg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                         </div>
                     </div>
@@ -367,20 +363,20 @@
     <section id="desktop_5" class="py-5">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h2 class="pb-5 text-center">ТРУБЫ ЛЕЖАЛЫЕ И Б/У В НАЛИЧИИ</h2>
                     <div class="row justify-content-center">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-12">
                             <a data-fancybox="gallery" href="img/gallery/img1.jpg"><img src="img/gallery/img1.jpg"></a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-12">
                             <a data-fancybox="gallery" href="img/gallery/img2.jpg"><img src="img/gallery/img2.jpg"></a>
                         </div>
                         <div class="w-100 d-none d-md-block"></div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-12">
                             <a data-fancybox="gallery" href="img/gallery/img3.jpg"><img src="img/gallery/img3.jpg"></a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-12">
                             <a data-fancybox="gallery" href="img/gallery/img4.jpg"><img src="img/gallery/img4.jpg"></a>
                         </div>
                     </div>
@@ -400,35 +396,35 @@
     <footer class="py-5">
          <div class="container">
             <div class="row">
-                <div class="col-md-5 align-self-center">
+                <div class="col-md-5 col-12 text-md-left text-center align-self-center">
                     <h4>ПРЕВРАЩАЕМ МЕТАЛЛОЛОМ В ПОЛЕЗНЫЙ РЕСУРС!</h4>
                 </div>
-                <div class="col-md-7 right-column">
+                <div class="col-md-7 col-12 text-md-left text-center right-column">
                     <div class="row">
-                        <div class="col-md-4">ОТДЕЛ ПРОДАЖ:</div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">ОТДЕЛ ПРОДАЖ:</div>
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <span>84950449777@MAIL.RU</span></a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <span>+7 (495) 044-97-77</span></a>
                         </div>
-                        <div class="w-100 pt-2 d-none d-md-block"></div>
-                        <div class="col-md-4">ОТДЕЛ СНАБЖЕНИЯ:</div>
-                        <div class="col-md-4">
+                        <div class="w-100 py-3 py-md-0 pt-2 d-md-block"></div>
+                        <div class="col-md-4 col-12">ОТДЕЛ СНАБЖЕНИЯ:</div>
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <span>84950449777@MAIL.RU</span></a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <a href="#">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <span>МНОГОКАНАЛЬНЫЙ</span></a>
                         </div>
-                        <div class="w-100 pt-2 d-none d-md-block"></div>
+                        <div class="w-100 py-3 py-md-0 pt-2 d-md-block"></div>
                         <div class="col-md-12 text-center">
                             <a href="#">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -454,7 +450,36 @@
             </div>
         </div>
     </div>
-    
+    <nav class="gamburger d-inline d-md-none">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#desktop_1">Стоимость</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">О компании</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#advantage">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#desktop_2">Поставщикам</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#map">Контакты</a>
+                </li>
+                <li class="nav-item call d-none d-md-block">
+                     <a class="nav-link" href="#">
+                         <i class="fa fa-headphones" aria-hidden="true"></i>
+                         <span>Заказать звонок</span>
+                     </a>
+                </li>
+            </ul>
+        </div>
+        </nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
