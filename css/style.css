@@ -64,16 +64,16 @@ header h4 {
     color: white;
 }
 
-header .right-column {
+header .right-column , footer .right-column {
     color: white;
 }
 
-header .right-column a {
+header .right-column a, footer .right-column a {
     color: white;
     text-decoration: none;
 }
 
-header .right-column a:hover {
+header .right-column a:hover, footer .right-column a:hover {
     transition: .3s;
     color: rgb(255, 227, 0);
 }
@@ -88,13 +88,18 @@ header .title .wrapper {
     background: #00000082;
 }
 
-header .title .wrapper h1 {
+header .title .wrapper .left-text {
+    animation-name: fadeInDown;
+    visibility: visible;
+}
+
+header .title .wrapper .left-text h1 {
     font-size: 55px;
     border-bottom: 5px white solid;
     font-weight: 500;
 }
 
-header .title .wrapper h1 span {
+header .title .wrapper .left-text h1 span {
     font-size: 100px;
     font-weight: 700;
 }
@@ -195,4 +200,76 @@ header .callme .link-calc a:hover {
 #desktop_2 h3 span:nth-of-type(3) {
     font-size: 90%;
     font-weight: 700;
+}
+
+#desktop_3 {
+    background: url(../img/sklad.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#desktop_3 .left-column h3 {
+    font-size: 30px;
+    color: white;
+}
+
+#desktop_3 .left-column h3 span {
+    font-size: 80%;
+}
+
+#desktop_3 .left-column p {
+    border-top: 2px dotted #ffe300;
+    color: #ffe300;
+    margin-top: 15rem;
+    font-size: 22px;
+}
+
+#desktop_3 .left-column p span {
+    font-weight: 700;
+}
+
+#desktop_3 .right-column h4, #desktop_3 p {
+    text-transform: uppercase;
+    color: #ffe300;
+}
+
+#desktop_3 .right-column input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0000004f;
+}
+
+#desktop_5, footer {
+    background: url(../img/backtrubi.png);
+}
+
+#desktop_5 h2 {
+    color: white;
+}
+
+#desktop_5 img {
+    padding: 15px;
+    width: 100%;
+}
+
+#map {
+    position: relative;
+}
+
+#map .text {
+    padding: 20px;
+    position: absolute;
+    background: #ffffffbf;
+    top: 3%;
+    left: 40%;
+}
+
+#map .text h2 {
+    font-size: 55px;
+}
+
+footer h4 {
+    font-size: 16px;
+    color: white;
 }
