@@ -59,7 +59,7 @@ a.btn.no-effect:hover {
 
 header {
     background: url(../img/header.jpg) no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -125,7 +125,7 @@ header .callme input {
 }
 
 header .callme .link-calc {
-    padding: 25px 0;
+    padding: 80px 0;
 }
 
 header .callme .link-calc a {
@@ -136,10 +136,8 @@ header .callme .link-calc a {
 }
 
 header .callme .link-calc a:hover {
-    transition: .8s;
-    color: black;
-    background: #ffe300;
-    border-radius: 15px;
+    transition: .5s;
+    opacity: .5;
 }
 
 #desktop_1 .calc {
