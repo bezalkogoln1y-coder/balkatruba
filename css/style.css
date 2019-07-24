@@ -318,11 +318,48 @@ footer {
     font-weight: 700;
 }
 
-#desktop_5 img {
+#desktop_5 div {
     padding: 15px;
+}
+
+#desktop_5 div a {
+    display: block;
+    position: relative;
+}
+
+#desktop_5 div a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+}
+
+#desktop_5 div a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/zoom.png) no-repeat center center;
+    opacity: 0;
+}
+
+#desktop_5 div a:hover:before,
+#desktop_5 div a:hover:after {
+    opacity: 1;
+    transition: .5s;
+}
+
+#desktop_5 div a img {
     width: 100%;
     height: 400px;
 }
+
 /* СТИЛИ ЭКРАНА5 */
 
 
@@ -403,7 +440,7 @@ footer h4 {
         margin-top: 0;
     }
     
-    #desktop_5 img {
+    #desktop_5 div a img {
         padding: 15px;
         width: 100%;
         height: 300px;
